@@ -37,7 +37,7 @@ class HTMLGenerator:
             <script>
                 $(document).ready(function() {
                     $('#referencesTable').DataTable({
-                        pageLength: 10,
+                        pageLength: 100,
                         responsive: true,
                         dom: 'Bfrtip',
                         buttons: [
